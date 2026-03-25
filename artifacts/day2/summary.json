@@ -1,0 +1,23 @@
+{
+  "computed": {
+    "title_len": 18
+  },
+  "generated_utc": "2026-03-25T18:33:16.632188+00:00",
+  "input": {
+    "path": "artifacts/day1/response.json",
+    "sha256": "ffefdf50d54770c2a20ba143e42daa910535c20ec5ca7a1e449dac71729f00fe"
+  },
+  "outputs": {
+    "normalized_csv_sha256": "9af19065e7bd19c229c763845302c4bdf1f7aac430cb3f88db0c1efb76e33eba",
+    "normalized_json_sha256": "77aab9fa4e8e5ccdb5a670973c252c3761b77cef12b1e9167897a6ecf27c95fb",
+    "normalized_xml_sha256": "782f3fb0bbd35daea48d554248637c030695ef96a0a98f8cac8c9f97e7c75f50",
+    "normalized_yaml_sha256": "2a6ee4b37760e30c8b448cbaa472c40f15374607d7f9968df069d9057618bf74"
+  },
+  "schema_version": "2.0",
+  "student": {
+    "group": "IB-23-5b",
+    "name": "Бақытбек",
+    "token": "D1-IB-23-5b-02-B7C2",
+    "token_hash8": "4e19a17f"
+  }
+}
