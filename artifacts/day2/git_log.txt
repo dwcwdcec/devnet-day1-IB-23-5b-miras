@@ -1,0 +1,14 @@
+* 5bb3bb5 (HEAD -> main, origin/main, origin/HEAD) Resolve README conflict (Day2)
+* 3923685 (origin/feature/day2-readme-B, feature/day2-readme-B) Update README B
+* 55c6786 (origin/feature/day2-readme-A, feature/day2-readme-A) Update README A
+*   9298a03 Merge pull request #1 from dwcwdcec/feature/day2-dataformats
+|\  
+| | * 79eb471 (origin/feature/day2-dataformats, feature/day2-dataformats) Add PR link
+| |/  
+| * 95ecf20 Add Day2 data formats, schema, tests, and report
+|/  
+* 650ba46 Add Day2 report
+* 4f2888c final report clean version
+* 35ab6a4 add pip freeze artifact
+* 4b26d59 fix gitignore and remove local secrets
+* 73a67b8 init
