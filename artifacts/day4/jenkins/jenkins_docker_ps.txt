@@ -1,1 +1,2 @@
-pending
+CONTAINER ID                                                       IMAGE                 COMMAND                                        CREATED         STATUS         PORTS                                                                                          NAMES
+923ac8d8c701db6ac760b170b1e819b5ccc42650cfa40b29366e5e42ed913ebc   jenkins/jenkins:lts   "/usr/bin/tini -- /usr/local/bin/jenkins.sh"   6 seconds ago   Up 5 seconds   0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp, 0.0.0.0:50000->50000/tcp, [::]:50000->50000/tcp   jenkins-day4
