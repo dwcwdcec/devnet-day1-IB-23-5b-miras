@@ -1,8 +1,8 @@
 {
   "checks": {
     "ansible_port_8081": false,
-    "docker_token_in_page": false,
-    "docker_tokenproof": false,
+    "docker_token_in_page": true,
+    "docker_tokenproof": true,
     "jenkins_pipeline_has_stages": false,
     "security_db_has_tables": false
   },
@@ -14,10 +14,10 @@
     "curl_apache_8081": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1",
     "db_tables": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1",
     "db_user_hash_sample": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1",
-    "docker_build_log": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1",
-    "docker_ps": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1",
-    "docker_sampleapp_curl": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1",
-    "docker_token_proof": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1",
+    "docker_build_log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docker_ps": "330bad96709c03a98efb4005af7eb7e5758b1248bb81cf11b50cff82f2aa2967",
+    "docker_sampleapp_curl": "24edcc822c87e1d429f660e8add086c62723385de6511ea1db58752d4b4aff2c",
+    "docker_token_proof": "cb154868b5ff536455bc7f84827dc729aaa96710a9732ce51c36d4a4cc825ec2",
     "jenkins_docker_ps": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1",
     "jenkins_url": "185f195598830dbc315eb3a6741f97eace245e9d9d2a7225c5da77b87f27f3fc",
     "login_v1": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1",
@@ -29,7 +29,7 @@
     "signup_v2": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1",
     "testapp_console": "52d26753462488ad21852bc6718e21b84835f53765304d0a1e1b89d05a2a71b1"
   },
-  "generated_utc": "2026-03-26T13:14:14.475497+00:00",
+  "generated_utc": "2026-03-26T13:21:50.562262+00:00",
   "run": {
     "platform": "darwin",
     "python": "3.14.0"

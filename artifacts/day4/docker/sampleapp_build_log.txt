@@ -1,1 +1,45 @@
-pending
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 232B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 1.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 132B done
+#4 DONE 0.0s
+
+#5 [1/6] FROM docker.io/library/python:3.11-slim@sha256:9358444059ed78e2975ada2c189f1c1a3144a5dab6f35bff8c981afb38946634
+#5 resolve docker.io/library/python:3.11-slim@sha256:9358444059ed78e2975ada2c189f1c1a3144a5dab6f35bff8c981afb38946634 done
+#5 DONE 0.0s
+
+#6 [3/6] COPY requirements.txt .
+#6 CACHED
+
+#7 [4/6] RUN pip install --no-cache-dir -r requirements.txt
+#7 CACHED
+
+#8 [5/6] COPY app.py .
+#8 CACHED
+
+#9 [2/6] WORKDIR /app
+#9 CACHED
+
+#10 [6/6] COPY templates ./templates
+#10 CACHED
+
+#11 exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:75895b6ff45eb7407907f015305c6023bded44f279bb8856ee240e37efeaee34 done
+#11 exporting config sha256:bfd25b9813b21d1fd71d23d73f409bd7786e34e8009944a3eb28115fef322a0a done
+#11 exporting attestation manifest sha256:fa52a689dad538d7cc72910b4fcef791f07a395f5538474934ec2d337a543f9c done
+#11 exporting manifest list sha256:36db51b6ca07944364bc897e731cabfba024b08fa01d9b411c4b33f8f000b3dc done
+#11 naming to docker.io/library/sampleapp:day4 done
+#11 unpacking to docker.io/library/sampleapp:day4 done
+#11 DONE 0.0s
